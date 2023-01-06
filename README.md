@@ -18,10 +18,12 @@ Write a program that will print out every possible combination where you replace
 Examples:
 
 $ combinations X0
+
 00
 10
 
 $ combinations 10X10X0
+
 1001000
 1001010
 1011000
@@ -56,6 +58,7 @@ possible”. Don’t return every possible pair that is under the balance, just 
 Examples:
 
 $ cat prices.txt
+
 Candybar, 500
 Book, 700
 Detergent, 1000
@@ -64,15 +67,19 @@ Earmuffs, 2000
 Speaker, 6000
 
 $ find-pair prices.txt 2500
+
 Candybar 500, Earmuffs 2000
 
 $ find-pair prices.txt 2300
+
 Book 700, Headphones 1400
 
 $ find-pair prices.txt 10000
+
 Earmuffs 2000, Speaker 6000
 
 $ find-pair prices.txt 1100
+
 Not possible
 
 Note: There may be many​ rows in the file, so be sure to optimize your solution to scale.
