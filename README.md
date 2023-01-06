@@ -1,6 +1,6 @@
 # Rinsed_code_challenge
 
-##Coding Challenge - Takehome Test
+## Coding Challenge - Takehome Test
 The response to the programming challenges can be implemented in your programming language of choice. These questions are designed to be fun and showcase your skills!
 
 You should budget 45 minutes for each question, but some candidates are much faster and others take more time (that’s ok, quality > speed).
@@ -9,7 +9,7 @@ Send your source code by email or online repository, and include an example of h
 Please submit answers to both problems.
 
 
-##Combinations Problem
+## Combinations Problem
 You are given a string composed of only 1s, 0s, and Xs.
 
 Write a program that will print out every possible combination where you replace the X with both
@@ -33,7 +33,7 @@ program shouldn’t crash (nor hang) on an input with many Xs. The order of your
 What is the big O notation for your program?
 
 
-##Gift Card Problem
+## Gift Card Problem
 You have been given a gift card that is about to expire and you want to buy gifts for 2 friends.
 
 You want to spend the whole gift card, or if that’s not an option as close to the balance as
@@ -78,6 +78,6 @@ Not possible
 Note: There may be many​ rows in the file, so be sure to optimize your solution to scale.
 
 What is the big O notation for your program?
-###Bonus Question (optional)
+### Bonus Question (optional)
 
 You are considering giving gifts to 1 more friend. Instead of choosing exactly 2 items to give, allow for 3 gifts. What is the big O notation for your program now?
