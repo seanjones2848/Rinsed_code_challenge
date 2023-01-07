@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require_relative 'combinations'
+
+c = Combinations.new()
+puts "please use 1 argument" if ARGV.length != 1
+c.combine(ARGV[0])
