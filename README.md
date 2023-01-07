@@ -36,7 +36,7 @@ program shouldn’t crash (nor hang) on an input with many Xs. The order of your
 
 What is the big O notation for your program?
 
-This is an expensive implementation I found which pre-computes the solution then prints it. the big O would be O(2^n) because for each X involved, the solution size double. The only optimization I could think to not have it hang would be for it to print as it goes line by line and have a running tally of all the solutions kept, which it would run for a very long time given a large n.
+This is an expensive implementation I found which pre-computes the solution then prints it. The big O would be O(2^n) because for each X involved, the solution size double. The only optimization I could think to not have it hang would be for it to print as it goes line by line and have a running tally of all the solutions kept, which it would run for a very long time given a large n. Currently with a random sting of 0s, 1s, and Xs, anything less than or equal to 50 which would be ~17 Xs, computes in less than 10 seconds.
 
 ## Gift Card Problem
 You have been given a gift card that is about to expire and you want to buy gifts for 2 friends.
