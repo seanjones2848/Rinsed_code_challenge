@@ -36,6 +36,7 @@ program shouldn’t crash (nor hang) on an input with many Xs. The order of your
 
 What is the big O notation for your program?
 
+This is an expensive implementation I found which pre-computes the solution then prints it. the big O would be O(2^n) because for each X involved, the solution size double. The only optimization I could think to not have it hang would be for it to print as it goes line by line and have a running tally of all the solutions kept, which it would run for a very long time given a large n.
 
 ## Gift Card Problem
 You have been given a gift card that is about to expire and you want to buy gifts for 2 friends.
@@ -88,6 +89,11 @@ Not possible
 Note: There may be many​ rows in the file, so be sure to optimize your solution to scale.
 
 What is the big O notation for your program?
+
+From using combinations in my logic from the Ruby library (which should be the most expensive function), the big O for it should be O(n ^ min{2, n - 2}). So the big O for this problem should be O(n^2)
+
 ### Bonus Question (optional)
 
 You are considering giving gifts to 1 more friend. Instead of choosing exactly 2 items to give, allow for 3 gifts. What is the big O notation for your program now?
+
+Based on the assumptions above the big O for this would be O(n^3)
