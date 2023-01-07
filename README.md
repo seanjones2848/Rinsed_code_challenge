@@ -90,7 +90,7 @@ Note: There may be many​ rows in the file, so be sure to optimize your solutio
 
 What is the big O notation for your program?
 
-From using combinations in my logic from the Ruby library (which should be the most expensive function), the big O for it should be O(n ^ min{2, n - 2}). So the big O for this problem should be O(n^2)
+From using combinations in my logic from the Ruby library (which should be the most expensive function), the big O for it should be O(n ^ min{k, n - k}). So the big O for this problem based on a k of 2, should be O(n^2)
 
 ### Bonus Question (optional)
 
